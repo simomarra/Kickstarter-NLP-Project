@@ -1,0 +1,24 @@
+INSTRUCTIONS TO RUN THE CODE TO WEBSCRAPE KICKSTARTER: 
+FIRST time you run the code: 
+- make sure the folder 'Kickstarter_2026-03-12T03_20_26_556Z' is in the same folder as the jupyter notebook where the code for scraping is 
+- make sure also the file 'scraped_urls.txt' is in the same folder as the other files we are using 
+- make sure the file 'kickstarter_scraped_all.csv' is in the same folder as the other files we are using 
+- run every cell once 
+- the loop that actually scrapes the website and saves the description in the dataset is the code in cell 25 
+- depending on how much time you want the code to run for and how mnay links you want to webscrape, you can change the parameter 'batch_size = 100' in code cell 23,
+make sure to select a batch_size that is divisible by 5 as that is the number of categories we are including in our dataset 
+- at the end you will need to run the last two cells to save the newly added descriptions in the dataset 'kickstarter_scraped_all.csv' 
+
+FROM the second time onwards you need to: 
+- DO NOT RUN CODE CELL 1 to 18
+- you just need to run every cell from cell 21 (the one where the title is like 'NOT SO RANDOM SAMPLING') onwards 
+
+HOW TO CHECK IF YOU ARE DOING IT CORRECLTY: 
+- when running cell 21 you should see printed 'Already scraped: number' this number should go up everytime you run the loop more and more, while the 'Remaining: number' 
+number should go down every time you re-run the loop
+
+LAST THING: 
+- if you want the code to give you less errors when scraping, make sure you do not have any Google Chrome tabs already opened when you run the scraping loop
+- DO NOT WORRY if you see many errors when using the loop for webscraping, that happens because the kickstarter website stops you from using bots to webscrape, 
+therefore sometimes it gives an error when trying to webscrape a link 
+
