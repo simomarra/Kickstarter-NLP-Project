@@ -1,5 +1,6 @@
 INSTRUCTIONS TO RUN THE CODE TO WEBSCRAPE KICKSTARTER: 
 FIRST time you run the code: 
+- make sure to download the folder 'Kickstarter_2026-03-12T03_20_26_556Z' from the google drive link: https://drive.google.com/drive/folders/1c3jSz0p0PDXkp1i18e1ovTwfVXGe5SVH
 - make sure the folder 'Kickstarter_2026-03-12T03_20_26_556Z' is in the same folder as the jupyter notebook where the code for scraping is 
 - make sure also the file 'scraped_urls.txt' is in the same folder as the other files we are using 
 - make sure the file 'kickstarter_scraped_all.csv' is in the same folder as the other files we are using 
